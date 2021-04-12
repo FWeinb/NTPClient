@@ -43,6 +43,7 @@ void loop() {
   timeClient.update();
 
   Serial.println(timeClient.getFormattedTime());
+  Serial.println(timeClient.getFormattedDate());
 
   delay(1000);
 }
